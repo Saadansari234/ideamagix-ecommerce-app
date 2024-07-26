@@ -14,6 +14,7 @@ const HomeScreen = ({ searchTerm,navigation }) => {
   const [drawerVisibleSort, setDrawerVisibleSort] = useState(false);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const { addToCart } = useContext(CartContext);
+ 
   // fetching products from fakestore api
   useEffect(() => {
     const fetchProducts = async () => {
@@ -31,7 +32,6 @@ const HomeScreen = ({ searchTerm,navigation }) => {
         setLoading(false);
       }
     };
-
     fetchProducts();
   }, []);
 
