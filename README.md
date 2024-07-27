@@ -1,4 +1,8 @@
 # ideamagix-ecommerce-app
+type-
+username- mor_2314
+password- 83r5^_
+you can also choose guest account but when you order a product it will give you a form to fill. 
 
 Routes -
 Loginpage- after login or guest account 
