@@ -1,7 +1,6 @@
-import { View } from 'react-native';
-import Layout from './app/Layout';
-import { StyleSheet } from 'react-native';
 
+import Layout from './app/Layout';
+//main layout
 export default function App() {
   return (
       <Layout/>
